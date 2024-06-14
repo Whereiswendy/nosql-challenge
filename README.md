@@ -74,8 +74,8 @@ The magazine editors have some requested modifications for the database before y
     "RightToReply": "",
     "Distance": 4623.9723280747176,
     "NewRatingPending": true
-}```
-
+}
+```
 Find the `BusinessTypeID` for "Restaurant/Cafe/Canteen" and return only the `BusinessTypeID` and `BusinessType` fields.
 Update the new restaurant with the `BusinessTypeID` you found.
 The magazine is not interested in any establishments in Dover, so check how many documents contain the Dover Local Authority. Then, remove any establishments within the Dover Local Authority from the database, and check the number of documents to ensure they were deleted.
