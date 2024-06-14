@@ -1,7 +1,5 @@
-# nosql-challenge
+# Module 12 Challenge - nosql-challenge
 UWA Data Analytics Bootcamp MongoDB Challenge
-
-# Module 12 Challenge
 
 Due Thursday by 23:59 Points 100 Submitting a text entry box or a website URL
 
