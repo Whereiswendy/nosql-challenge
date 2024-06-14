@@ -83,7 +83,7 @@ The magazine editors have some requested modifications for the database before y
     2. Use `update_many` to convert `RatingValue` to integer numbers.
 
 ## Part 3: Exploratory Analysis
-
+*Eat Safe, Love* has specific questions they want you to answer, which will help them find the locations they wish to visit and avoid.
 Use `NoSQL_analysis_starter.ipynb` for this section of the challenge.
 
 Some notes to be aware of while you are exploring the dataset:
@@ -96,9 +96,9 @@ Use the following questions to explore the database, and find the answers, so yo
 
 Unless otherwise stated, for each question:
 
-1. Use `count_documents` to display the number of documents contained in the result.
-2. Display the first document in the results using `pprint`.
-3. Convert the result to a Pandas DataFrame, print the number of rows in the DataFrame, and display the first 10 rows.
+- Use `count_documents` to display the number of documents contained in the result.
+- Display the first document in the results using `pprint`.
+- Convert the result to a Pandas DataFrame, print the number of rows in the DataFrame, and display the first 10 rows.
 
 ### Questions:
 
@@ -112,13 +112,13 @@ Unless otherwise stated, for each question:
 
 The first 5 rows of your resulting DataFrame should look something like this:
 
-| _id       | count |
-|-----------|-------|
-| Thanet    | 1130  |
-| Greenwich | 882   |
-| Maidstone | 713   |
-| Newham    | 711   |
-| Swale     | 686   |
+|   | _id       | count |
+|---|-----------|-------|
+| 0 | Thanet    | 1130  |
+| 1 | Greenwich | 882   |
+| 2 | Maidstone | 713   |
+| 3 | Newham    | 711   |
+| 4 | Swale     | 686   |
 
 ## Requirements
 
